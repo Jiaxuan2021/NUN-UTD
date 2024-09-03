@@ -4,13 +4,17 @@
 
 Hyperspectral underwater target detection is a promising and challenging task in remote sensing image processing. Existing methods face significant challenges when adapting to real nearshore environments, where cluttered backgrounds hinder the extraction of target signatures and exacerbate signal distortion.Hyperspectral unmixing demonstrates potential effectiveness for nearshore underwater target detection by simultaneously extracting water background endmembers and separating target signals. To this end, this paper investigates a novel nonlinear unmixing network for hyperspectral underwater target detection, denoted as NUN-UTD.
 
-![Framework](/pics/fig_framework.png "NUN-UTD"){width=900px style="display: block; margin: 0 auto;"}
+<p align="center">
+  <img src="/pics/fig_framework.png" alt="Framework" title="NUN-UTD" width="900px">
+</p>
 
 ***
 ### Dataset
 Due to the difficulty of deploying underwater targets and the high cost of data collection, research in this area has predominantly relied on simulated data. To advance the study of underwater target detection in real-world scenarios, we collected a dataset of real underwater scenes and conducted experiments on this data. The deployed underwater target is an iron plate, and the target's prior spectral data were collected onshore.
 
-![Framework](/pics/ref.png "reference"){width=400px style="display: block; margin: 0 auto;"}
+<p align="center">
+  <img src="/pics/ref.png" alt="Framework" title="NUN-UTD" width="400px">
+</p>
 
 > The River Scene data sets was captured by Headwall Nano-Hyperspec imaging sensor equipped on DJI Matrice 300 RTK unmanned aerial vehicle, and it was collected at the Qianlu Lake Reservoir in Liuyang (28◦18′40.29′′ N, 113◦21′16.23′′ E), Hunan Province, China on July 31, 2021.
 
@@ -19,7 +23,9 @@ Due to the difficulty of deploying underwater targets and the high cost of data 
   
 - Dataset format: mat
 
-![Framework](/pics/datasets.png "reference"){width=800px style="display: block; margin: 0 auto;"}
+<p align="center">
+  <img src="/pics/datasets.png" alt="Framework" title="NUN-UTD" width="800px">
+</p>
 
 - River Scene1
 242×341 pixels with 270 spectral bands

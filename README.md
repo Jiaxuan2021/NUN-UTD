@@ -14,6 +14,9 @@ Due to the difficulty of deploying underwater targets and the high cost of data 
 
 > The River Scene data sets was captured by Headwall Nano-Hyperspec imaging sensor equipped on DJI Matrice 300 RTK unmanned aerial vehicle, and it was collected at the Qianlu Lake Reservoir in Liuyang (28◦18′40.29′′ N, 113◦21′16.23′′ E), Hunan Province, China on July 31, 2021.
 
+
+- **Download the datasets from [*here*](https://drive.google.com/file/d/1eDJZW20TebuEE9Sa4yFB7Sze-N_Chxh3/view?usp=sharing), put it under the folder *dataset*.**
+  
 - Dataset format: mat
 
 ![Framework](/pics/datasets.png "reference"){width=800px style="display: block; margin: 0 auto;"}
@@ -42,10 +45,11 @@ Keys:
 1. Modify `config.py`
 2. Run ` python main.py `
 
-> You can use `demo_for_reproducibility.py` to reproduce the results, model weights are in folder *result*.
+> You can use `demo_for_reproducibility.py` to reproduce the results, download model weights from [*here*](https://drive.google.com/file/d/1aNWnvnOYAbU-5eNVZvFMUOcGFuA_ZH_C/view?usp=sharing).
 
 Training for new dataset need to generate NDWI mask. 
 > NDWI Water Mask (require gdal):
+> `water_mask\NDWI.py`
 > - water -- 0
 > - land -- 255
 > - selected bands get from envi

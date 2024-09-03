@@ -314,7 +314,7 @@ def main(seed):
     train(args, seed)
 
 if __name__ == '__main__':
-    seed_list = [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]
+    seed_list = [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
     args = get_args()
     for idx, seed in enumerate(seed_list):
         print("[%d / %d Random seed (%d) start training]" %(idx+1, len(seed_list), seed_list[idx]))

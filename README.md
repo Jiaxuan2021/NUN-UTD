@@ -1,6 +1,6 @@
 # Detecting Nearshore Underwater Targets with Hyperspectral Nonlinear Unmixing Autoencoder
 -----------
-> *Jiaxuan Liu, Jiahao Qi, Dehui Zhu, Hao Wen, Hejun Jiang, and Ping Zhong. TGRS.2024.*
+> *Jiaxuan Liu, Jiahao Qi, Dehui Zhu, Hao Wen, Hejun Jiang, and Ping Zhong. Detecting Nearshore Underwater Targets with Hyperspectral Nonlinear Unmixing Autoencoder. IEEE Transactions on Geoscience and Remote Sensing, vol. 62, pp. 1-15, 2024.*
 
 Hyperspectral underwater target detection is a promising and challenging task in remote sensing image processing. Existing methods face significant challenges when adapting to real nearshore environments, where cluttered backgrounds hinder the extraction of target signatures and exacerbate signal distortion.Hyperspectral unmixing demonstrates potential effectiveness for nearshore underwater target detection by simultaneously extracting water background endmembers and separating target signals. To this end, this paper investigates a novel nonlinear unmixing network for hyperspectral underwater target detection, denoted as NUN-UTD.
 
